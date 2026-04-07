@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 10 Meses, Meu Amor!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos Gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffe6fa 0%, #ffc2d1 100%);
+            color: #4a4a4a;
+            overflow-x: hidden;
+        }
+
+        /* Animação dos corações caindo */
+        .heart {
+            position: fixed;
+            top: -10vh;
+            font-size: 1.5rem;
+            animation: fall linear forwards;
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh);
+            }
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 100px 20px 50px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-bottom: 2px solid #ff9ebb;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            color: #e63946;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            color: #d90429;
+            margin-top: 10px;
+        }
+
+        /* Seção dos 10 Meses (Grid) */
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #e63946;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            border: 1px solid #ffe6fa;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(230, 57, 70, 0.2);
+            background-color: #fff0f3;
+        }
+
+        .card h3 {
+            color: #e63946;
+            margin-top: 0;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+        }
+
+        /* Carta de Amor */
+        .love-letter {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            margin: 60px auto;
+            max-width: 800px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            line-height: 1.8;
+        }
+
+        .love-letter::before {
+            content: '❤️';
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3rem;
+        }
+
+        .love-letter p {
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .signature {
+            text-align: right;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+            color: #e63946;
+            margin-top: 30px;
+            display: block;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #d90429;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Feliz 10 meses ao seu lado meu bem! </h1>
+        <p class="subtitle">Os 304 dias mais felizes da minha vida foram ao seu lado!</p>
+    </header>
+
+    <div class="container">
+        
+        <h2 class="section-title">10 Meses, 10 Motivos para te Amar 💖</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>Motivo 1</h3>
+                <p>Seu sorriso, que tras luz aos meus dias.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 2</h3>
+                <p>O jeito que você faz eu me sentir a pessoa mais especial do mundo.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 3</h3>
+                <p>Nossas conversas únicas até altas horas kakakakak.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 4</h3>
+                <p>A paz que eu sinto quando estou abraçado com você.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 5</h3>
+                <p>O seu brilho único e inigualável.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 6</h3>
+                <p>O jeito que a gente entende um ao outro.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 7</h3>
+                <p>As lindas ondas do seu cabelo.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 8</h3>
+                <p>O seu olhar hipinotizante.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 9</h3>
+                <p>Seu cheiro, que além de único me tras conforto.</p>
+            </div>
+            <div class="card">
+                <h3>Motivo 10</h3>
+                <p>Saber que isso é só o começo da nossa história.</p>
+            </div>
+        </div>
+
+        <div class="love-letter">
+            <h2 style="text-align: center; color: #e63946; font-family: 'Dancing Script', cursive; font-size: 2.5rem; margin-top: 0;">Para o meu amor...</h2>
+            <p>Meu amor,</p>
+            <p>Foram exatamente 304 ao seu lado meu amoor. Dias esses que pode ter certeza que foram os melhores da minha vida. Ao seu lado conheci que a vida ela é leve, cheia de amor. Você me mostrou meu amorr que quando duas pessoas querem elas fazem acontecer.
+                Meu amorr eu agradeço todos os dias a Deus por ter colocado você em minha vida, você me curou de coisas que nem foi você que causou. Você é o meu porto seguro que posso contar sempre que eu estou mal ou algo acontece comigo. Você merece o mundo meu amor,
+                você me da tanto orgulho da mulher incrivel que está se tornando, dessa garota forte, corajosa e leal que voce é, sou muito grato de poder ter você ao meu lado meu bemm. Não imaginava que desde o dia 19/05/2025, aquela simples mensagem iria mudar minha vida por completo!
+            
+            <span class="signature">Com todo meu amor, [Seu Nome]</span>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Feito com ❤️ para a namorada mais incrível do universo.</p>
+    </footer>
+
+    <script>
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            
+            // Emoji ou símbolo do coração
+            const hearts = ['❤️', '💖', '💕', '🥰', '💗'];
+            heart.innerText = hearts[Math.floor(Math.random() * hearts.length)];
+            
+            // Posição aleatória na tela
+            heart.style.left = Math.random() * 100 + 'vw';
+            
+            // Duração da queda aleatória (entre 3s e 6s)
+            heart.style.animationDuration = Math.random() * 3 + 3 + 's';
+            
+            document.body.appendChild(heart);
+            
+            // Remove o coração depois que ele cai
+            setTimeout(() => {
+                heart.remove();
+            }, 6000);
+        }
+
+        // Cria um coração novo a cada 300 milissegundos
+        setInterval(createHeart, 300);
+    </script>
+</body>
+</html>
